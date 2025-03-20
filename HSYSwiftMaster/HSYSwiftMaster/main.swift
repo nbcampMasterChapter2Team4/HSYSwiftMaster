@@ -6,16 +6,12 @@
 //
 
 import Foundation
+let problem1 = Problem1()
+let problem2 = Problem2()
+let problem3 = Problem3()
+let problem4 = Problem4()
 
-let sum: (Int, Int) -> String = {
-    "두 수의 합은 \($0 + $1) 입니다."
-}
-
-print(sum(10, 20))
-
-func calculate(_ sum: (Int, Int) -> String) {
-    let message = sum(10, 20)
-    print(message)
-}
-
-calculate(sum)
+problem1.run()
+problem2.run()
+problem3.run()
+problem4.run()
