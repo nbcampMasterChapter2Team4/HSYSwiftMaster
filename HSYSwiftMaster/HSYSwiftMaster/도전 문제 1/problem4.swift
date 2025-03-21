@@ -9,7 +9,7 @@ struct Problem4 {
     func run() {
         print("------------------------------------")
         print("                도전문제 1             ")
-        let hybrid = HybridCar(brand: "Toyota", model: "Prius", year: "2020")
+        let hybrid = HybridCar(brand: "Hyundai", model: "Avante", year: "2020")
         hybrid.startDrive()
         hybrid.switchEngine(to: ElectricEngine())
         hybrid.startDrive()
