@@ -5,6 +5,7 @@
 //  Created by hanseoyoung on 3/20/25.
 //
 
+// 자동차 클래스
 class Car {
     let brand: String
     let model: String

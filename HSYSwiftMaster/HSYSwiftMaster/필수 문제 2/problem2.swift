@@ -1,6 +1,7 @@
 import Foundation
 
 struct Problem2 {
+    // 타입을 변환해주는 함수
     func myMap(_ inputArray: [Int],
                _ intToString: (Int) -> String) -> [String] {
         var resultArray: [String] = []

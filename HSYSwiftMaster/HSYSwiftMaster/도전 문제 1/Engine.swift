@@ -5,6 +5,7 @@
 //  Created by hanseoyoung on 3/20/25.
 //
 
+//엔진 타입 프로토콜
 protocol Engine {
     var EngineType: String { get }
 }
